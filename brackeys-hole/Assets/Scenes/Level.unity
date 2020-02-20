@@ -432,6 +432,7 @@ GameObject:
   - component: {fileID: 745737176}
   - component: {fileID: 745737175}
   - component: {fileID: 745737178}
+  - component: {fileID: 745737183}
   - component: {fileID: 745737179}
   - component: {fileID: 745737177}
   - component: {fileID: 745737181}
@@ -559,6 +560,7 @@ MonoBehaviour:
     type: 3}
   throwStrength: 10
   gravityStrength: 1
+  reach: 1
   rangedKey: Fire2
   meleeKey: Fire1
 --- !u!58 &745737180
@@ -605,6 +607,18 @@ MonoBehaviour:
   maxHealth: 100
   currentHealth: 0
   healthBar: {fileID: 745737181}
+--- !u!114 &745737183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 745737174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0ef0852ba17dc14e8bb140cbdc514e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &829391525
 GameObject:
   m_ObjectHideFlags: 0
